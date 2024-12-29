@@ -8,6 +8,17 @@ import MYTEXTMANIPULATOR from "../assets/MYTEXTMANIPULATOR.png";
 import { FaGithub, } from "react-icons/fa";
 
 const projects = [
+
+  {
+    img: MYTEXTMANIPULATOR,
+    title: " MY TEXT MANIPULATOR",
+    description:
+      " A visually appealing and user-friendly blog platform built with React JS and styled using Tailwind CSS.",
+    links: {
+      site: "https://my-text-manipulator.vercel.app/",
+      github: "https://github.com/TUHINDAS9670/MyTextManipulator",
+    },
+  },
   {
     img: BLOGTD,
     title: " Modern Blog Website",
@@ -15,17 +26,7 @@ const projects = [
       " A visually appealing and user-friendly blog platform built with React JS and styled using Tailwind CSS.",
     links: {
       site: "#",
-      github: "#",
-    },
-  },
-  {
-    img: MYTEXTMANIPULATOR,
-    title: " Modern Blog Website",
-    description:
-      " A visually appealing and user-friendly blog platform built with React JS and styled using Tailwind CSS.",
-    links: {
-      site: "#",
-      github: "#",
+      github: "https://github.com/TUHINDAS9670/MODERN-BLOG-WEBSITE",
     },
   },
   {
@@ -34,7 +35,7 @@ const projects = [
     description:
       "A real-time video calling application built using React and ZEGOCLOUD Video Call API to facilitate seamless virtual communication. ",
     links: {
-      site: "#",
+      site: "https://video-call-app-topaz.vercel.app/",
       github: "https://github.com/TUHINDAS9670/video-call-app",
     },
   },
@@ -44,8 +45,8 @@ const projects = [
     description:
       "  A task management application to organize daily activities. ",
     links: {
-      site: "#",
-      github: "#",
+      site: "https://todo-app-seven-teal.vercel.app/",
+      github: "https://github.com/TUHINDAS9670/TODO-APP",
     },
   },
   { img: TICTACTOE,  
@@ -53,30 +54,11 @@ const projects = [
     description:
       " : A classic two-player game implemented with an interactive UI.",
     links: {
-      site: "#",
-      github: "#",
+      site: "https://tic-tac-toe-virid-omega.vercel.app/",
+      github: "https://github.com/TUHINDAS9670/TIC-TAC-TOE",
     },
   },
-  {
-    img: BLOGTD,
-    title: " Modern Blog Website",
-    description:
-      " A visually appealing and user-friendly blog platform built with React JS and styled using Tailwind CSS.",
-    links: {
-      site: "#",
-      github: "#",
-    },
-  },
-  {
-    img: BLOGTD,
-    title: " Modern Blog Website",
-    description:
-      " A visually appealing and user-friendly blog platform built with React JS and styled using Tailwind CSS.",
-    links: {
-      site: "#",
-      github: "#",
-    },
-  },
+  
 ];
 
 const Projects = () => {
@@ -89,7 +71,7 @@ const Projects = () => {
 </div>
 <p className="text-gray-300 my-4">{projects[currentProject].description}</p>
 <div className="flex space-x-5">
-  <a href="" className="px-4 py-2 bg-slate-600 text-gray-200 rounded-lg hover:bg-slate-700 transform transition-transform hover:scale-90 duration-300">View Site</a>
+  <a href={projects[currentProject].links.site} className="px-4 py-2 bg-slate-600 text-gray-200 rounded-lg hover:bg-slate-700 transform transition-transform hover:scale-90 duration-300">View Site</a>
   <a href={projects[currentProject].links.github} className="text-4xl text-white transform transition-transform hover:scale-90 duration-300"><FaGithub /></a>
 </div>
     </div>
