@@ -2,7 +2,8 @@ import React, { useState } from "react";
 import BLOGTD from "../assets/BLOGTD.png";
 import MEETAPP from "../assets/MEETAPP.png";
 import TODO from "../assets/TODO.png";
-import TICTACTOE from "../assets/TICTACTOE.png";
+import Food_Recipe_Website from "../assets/Food_Recipe_Website.png";
+import BLOODBANK_MANAGEMENT_SYSTEM from "../assets/BLOODBANK_MANAGEMENT_SYSTEM.png";
 import MYTEXTMANIPULATOR from "../assets/MYTEXTMANIPULATOR.png";
 
 import { FaGithub, } from "react-icons/fa";
