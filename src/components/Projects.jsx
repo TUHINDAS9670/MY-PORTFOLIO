@@ -8,6 +8,35 @@ import MYTEXTMANIPULATOR from "../assets/MYTEXTMANIPULATOR.png";
 import { FaGithub, } from "react-icons/fa";
 
 const projects = [
+  { img: BLOODBANK_MANAGEMENT_SYSTEM,  
+     title: "  BLOOD BANK MANAGEMENT SYSTEM",
+    description:
+      "  Designed and built a full-stack Blood Bank Management System to streamline blood donation, inventory tracking, and emergency request handling across multiple user roles",
+    links: {
+      site: "https://online-cloudbased-bloodbank-system.vercel.app/homepage",
+      github: "https://github.com/TUHINDAS9670/ONLINE-CLOUDBASED-BLOODBANK-SYSTEM/tree/main",
+    },
+  },
+   {
+    img: Food_Recipe_Website,
+    title: "Food Recipe Website",
+    description:
+      " Developed a food recipe website that fetches recipes using the MealDB API .",
+    links: {
+      site: "#",
+      github: "https://github.com/TUHINDAS9670/MODERN-BLOG-WEBSITE",
+    },
+  },
+   {
+    img: BLOGTD,
+    title: " Modern Blog Website",
+    description:
+      " A visually appealing and user-friendly blog platform built with React JS and styled using Tailwind CSS.",
+    links: {
+      site: "#",
+      github: "https://github.com/TUHINDAS9670/MODERN-BLOG-WEBSITE",
+    },
+  },
 
   {
     img: MYTEXTMANIPULATOR,
@@ -19,16 +48,7 @@ const projects = [
       github: "https://github.com/TUHINDAS9670/MyTextManipulator",
     },
   },
-  {
-    img: BLOGTD,
-    title: " Modern Blog Website",
-    description:
-      " A visually appealing and user-friendly blog platform built with React JS and styled using Tailwind CSS.",
-    links: {
-      site: "#",
-      github: "https://github.com/TUHINDAS9670/MODERN-BLOG-WEBSITE",
-    },
-  },
+ 
   {
     img: MEETAPP,
     title: "Video Call Application",
@@ -49,15 +69,7 @@ const projects = [
       github: "https://github.com/TUHINDAS9670/TODO-APP",
     },
   },
-  { img: TICTACTOE,  
-     title: "  Tic Tac Toe Game App",
-    description:
-      " : A classic two-player game implemented with an interactive UI.",
-    links: {
-      site: "https://tic-tac-toe-virid-omega.vercel.app/",
-      github: "https://github.com/TUHINDAS9670/TIC-TAC-TOE",
-    },
-  },
+  
   
 ];
 
